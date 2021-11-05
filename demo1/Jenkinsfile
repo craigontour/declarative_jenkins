@@ -4,7 +4,7 @@ pipeline {
     stage('stage1') {
       steps {
         echo '''
-        Stage for $BUILD_NUMBER
+        Stage for ${BUILD_NUMBER}
         '''
       }
     }
